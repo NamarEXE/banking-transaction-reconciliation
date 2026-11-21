@@ -1,0 +1,28 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Generated datasets
+data/raw/
+data/processed/
+
+# Test cache
+.pytest_cache/
+
+# Editor files
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+# Documentation Folder and files
+/Documentation/
