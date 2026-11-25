@@ -23,6 +23,9 @@ data/processed/
 .DS_Store
 Thumbs.db
 
-
 # Documentation Folder and files
-/Documentation/
+Documentation/
+
+
+#database insert test query
+DATABASE/test_insert.sql
