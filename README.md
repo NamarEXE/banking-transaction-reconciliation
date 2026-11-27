@@ -18,5 +18,11 @@ Databricks, Apache Airflow and Azure.
 - Automate the pipeline
 
 ## Project Status
-
-Stage 1 - Project Setup and Git
+-Stage 1 - Project Setup and Git
+Establish project folders, VS Code, Python environment and local Git repository.
+-Stage 2 - synthetic transaction data generation
+Generate bank CSV and payment JSON datasets with deliberate exceptions.
+-Stage 3 - Python ingestion, validation & quarantine
+Implement reusable ingestion, schema checks, duplicate detection, quarantine and logging.
+-Stage 4 - PostgreSQL & data modelling
+Design transactions, ingestion batches and quarantine tables; apply keys and constraints
